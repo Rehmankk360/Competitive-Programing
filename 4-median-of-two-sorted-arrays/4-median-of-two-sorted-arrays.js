@@ -7,7 +7,6 @@ var findMedianSortedArrays = function(nums1, nums2) {
     for(let i1 = 0, i2 = 0, j = 0; j < target; j++) {
         let elem1 = nums1[i1] ?? Number.MAX_SAFE_INTEGER
         let elem2 = nums2[i2] ?? Number.MAX_SAFE_INTEGER
-        console.log(Number.MAX_SAFE_INTEGER)
         prev = val
         if(elem1 < elem2) {
             val = elem1
